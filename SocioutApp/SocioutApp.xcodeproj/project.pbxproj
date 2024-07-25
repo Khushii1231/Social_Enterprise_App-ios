@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E6298FEE0535E26874AD944 /* Pods_SocioutApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6AF5CBC66056DE5C789048 /* Pods_SocioutApp.framework */; };
+		8606B97F28C8E096001D6759 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606B97E28C8E096001D6759 /* DetailViewController.swift */; };
+		861F5E7F28C710ED0018C232 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F5E7E28C710ED0018C232 /* RegisterController.swift */; };
+		861F5E8128C7114B0018C232 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F5E8028C7114B0018C232 /* LoginController.swift */; };
+		86362A0428CC5B750078B455 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86362A0328CC5B750078B455 /* DetailTableViewCell.swift */; };
+		866E7E1928C633FF00ABE26C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 866E7E1828C633FF00ABE26C /* GoogleService-Info.plist */; };
+		8671038728E2D58100065320 /* SocioutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671038628E2D58100065320 /* SocioutAppTests.swift */; };
+		868249FA28CBC4AC00444B6B /* postDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868249F928CBC4AC00444B6B /* postDataModel.swift */; };
+		8686427028C9DDF600EB1E60 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8686426F28C9DDF600EB1E60 /* CreateViewController.swift */; };
+		868EFACC28CD185F0032ECF4 /* operationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EFACB28CD185F0032ECF4 /* operationModel.swift */; };
+		8692788F28C78AAB009CDC02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692788E28C78AAB009CDC02 /* HomeViewController.swift */; };
+		869B764A28C8A9C9002752DB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869B764928C8A9C9002752DB /* TableViewCell.swift */; };
+		869FDA3D28C5DE02004713FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869FDA3C28C5DE02004713FB /* AppDelegate.swift */; };
+		869FDA3F28C5DE02004713FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869FDA3E28C5DE02004713FB /* SceneDelegate.swift */; };
+		869FDA4128C5DE02004713FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869FDA4028C5DE02004713FB /* ViewController.swift */; };
+		869FDA4428C5DE02004713FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869FDA4228C5DE02004713FB /* Main.storyboard */; };
+		869FDA4628C5DE19004713FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869FDA4528C5DE19004713FB /* Assets.xcassets */; };
+		869FDA4928C5DE19004713FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869FDA4728C5DE19004713FB /* LaunchScreen.storyboard */; };
+		869FDA5128C5DFA6004713FB /* loginAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 869FDA5028C5DFA5004713FB /* loginAnimation.json */; };
+		869FDA5328C5E536004713FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869FDA5228C5E536004713FB /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8671038828E2D58100065320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869FDA3128C5DE02004713FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869FDA3828C5DE02004713FB;
+			remoteInfo = SocioutApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6405D0973085EC6E2551B750 /* Pods-SocioutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocioutApp.release.xcconfig"; path = "Target Support Files/Pods-SocioutApp/Pods-SocioutApp.release.xcconfig"; sourceTree = "<group>"; };
+		8606B97E28C8E096001D6759 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		861F5E7E28C710ED0018C232 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		861F5E8028C7114B0018C232 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		86362A0328CC5B750078B455 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailTableViewCell.swift; path = SocioutApp/View/DetailTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		866E7E1828C633FF00ABE26C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8671038428E2D58100065320 /* SocioutAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocioutAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8671038628E2D58100065320 /* SocioutAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocioutAppTests.swift; sourceTree = "<group>"; };
+		868249F928CBC4AC00444B6B /* postDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postDataModel.swift; sourceTree = "<group>"; };
+		8686426F28C9DDF600EB1E60 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		868EFACB28CD185F0032ECF4 /* operationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = operationModel.swift; sourceTree = "<group>"; };
+		8692788E28C78AAB009CDC02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		869B764928C8A9C9002752DB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		869FDA3928C5DE02004713FB /* SocioutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocioutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		869FDA3C28C5DE02004713FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		869FDA3E28C5DE02004713FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		869FDA4028C5DE02004713FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		869FDA4328C5DE02004713FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		869FDA4528C5DE19004713FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869FDA4828C5DE19004713FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		869FDA4A28C5DE19004713FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869FDA5028C5DFA5004713FB /* loginAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loginAnimation.json; sourceTree = "<group>"; };
+		869FDA5228C5E536004713FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93DC3103ACB38F737E25ED42 /* Pods-SocioutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocioutApp.debug.xcconfig"; path = "Target Support Files/Pods-SocioutApp/Pods-SocioutApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DE6AF5CBC66056DE5C789048 /* Pods_SocioutApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocioutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8671038128E2D58100065320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869FDA3628C5DE02004713FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6298FEE0535E26874AD944 /* Pods_SocioutApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7411711CE7E7E12BE8D440AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6AF5CBC66056DE5C789048 /* Pods_SocioutApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8671038528E2D58100065320 /* SocioutAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8671038628E2D58100065320 /* SocioutAppTests.swift */,
+			);
+			path = SocioutAppTests;
+			sourceTree = "<group>";
+		};
+		8671039A28E2E09600065320 /* View-Model */ = {
+			isa = PBXGroup;
+			children = (
+				868EFACB28CD185F0032ECF4 /* operationModel.swift */,
+			);
+			path = "View-Model";
+			sourceTree = "<group>";
+		};
+		868249FB28CBC82500444B6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				868249F928CBC4AC00444B6B /* postDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		868349D228CC80350053CE04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86362A0328CC5B750078B455 /* DetailTableViewCell.swift */,
+				869B764928C8A9C9002752DB /* TableViewCell.swift */,
+				869FDA4228C5DE02004713FB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		868349D328CC80660053CE04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				869FDA4028C5DE02004713FB /* ViewController.swift */,
+				8686426F28C9DDF600EB1E60 /* CreateViewController.swift */,
+				8606B97E28C8E096001D6759 /* DetailViewController.swift */,
+				8692788E28C78AAB009CDC02 /* HomeViewController.swift */,
+				861F5E8028C7114B0018C232 /* LoginController.swift */,
+				861F5E7E28C710ED0018C232 /* RegisterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		869FDA3028C5DE02004713FB = {
+			isa = PBXGroup;
+			children = (
+				869FDA3B28C5DE02004713FB /* SocioutApp */,
+				8671038528E2D58100065320 /* SocioutAppTests */,
+				869FDA3A28C5DE02004713FB /* Products */,
+				A47273BA71E5881E5B0F0702 /* Pods */,
+				7411711CE7E7E12BE8D440AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		869FDA3A28C5DE02004713FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869FDA3928C5DE02004713FB /* SocioutApp.app */,
+				8671038428E2D58100065320 /* SocioutAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869FDA3B28C5DE02004713FB /* SocioutApp */ = {
+			isa = PBXGroup;
+			children = (
+				869FDA3C28C5DE02004713FB /* AppDelegate.swift */,
+				869FDA5028C5DFA5004713FB /* loginAnimation.json */,
+				869FDA3E28C5DE02004713FB /* SceneDelegate.swift */,
+				869FDA5228C5E536004713FB /* Constants.swift */,
+				868249FB28CBC82500444B6B /* Model */,
+				868349D228CC80350053CE04 /* View */,
+				8671039A28E2E09600065320 /* View-Model */,
+				868349D328CC80660053CE04 /* Controller */,
+				869FDA4528C5DE19004713FB /* Assets.xcassets */,
+				869FDA4728C5DE19004713FB /* LaunchScreen.storyboard */,
+				869FDA4A28C5DE19004713FB /* Info.plist */,
+				866E7E1828C633FF00ABE26C /* GoogleService-Info.plist */,
+			);
+			path = SocioutApp;
+			sourceTree = "<group>";
+		};
+		A47273BA71E5881E5B0F0702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93DC3103ACB38F737E25ED42 /* Pods-SocioutApp.debug.xcconfig */,
+				6405D0973085EC6E2551B750 /* Pods-SocioutApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8671038328E2D58100065320 /* SocioutAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8671038A28E2D58100065320 /* Build configuration list for PBXNativeTarget "SocioutAppTests" */;
+			buildPhases = (
+				8671038028E2D58100065320 /* Sources */,
+				8671038128E2D58100065320 /* Frameworks */,
+				8671038228E2D58100065320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8671038928E2D58100065320 /* PBXTargetDependency */,
+			);
+			name = SocioutAppTests;
+			productName = SocioutAppTests;
+			productReference = 8671038428E2D58100065320 /* SocioutAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		869FDA3828C5DE02004713FB /* SocioutApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869FDA4D28C5DE19004713FB /* Build configuration list for PBXNativeTarget "SocioutApp" */;
+			buildPhases = (
+				3E31F428A06DA095C4411CD5 /* [CP] Check Pods Manifest.lock */,
+				869FDA3528C5DE02004713FB /* Sources */,
+				869FDA3628C5DE02004713FB /* Frameworks */,
+				869FDA3728C5DE02004713FB /* Resources */,
+				16825AC326DE982F879050A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocioutApp;
+			productName = SocioutApp;
+			productReference = 869FDA3928C5DE02004713FB /* SocioutApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		869FDA3128C5DE02004713FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8671038328E2D58100065320 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 869FDA3828C5DE02004713FB;
+					};
+					869FDA3828C5DE02004713FB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 869FDA3428C5DE02004713FB /* Build configuration list for PBXProject "SocioutApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 869FDA3028C5DE02004713FB;
+			productRefGroup = 869FDA3A28C5DE02004713FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				869FDA3828C5DE02004713FB /* SocioutApp */,
+				8671038328E2D58100065320 /* SocioutAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8671038228E2D58100065320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869FDA3728C5DE02004713FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869FDA5128C5DFA6004713FB /* loginAnimation.json in Resources */,
+				869FDA4928C5DE19004713FB /* LaunchScreen.storyboard in Resources */,
+				869FDA4628C5DE19004713FB /* Assets.xcassets in Resources */,
+				869FDA4428C5DE02004713FB /* Main.storyboard in Resources */,
+				866E7E1928C633FF00ABE26C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16825AC326DE982F879050A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocioutApp/Pods-SocioutApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocioutApp/Pods-SocioutApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocioutApp/Pods-SocioutApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E31F428A06DA095C4411CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocioutApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8671038028E2D58100065320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8671038728E2D58100065320 /* SocioutAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869FDA3528C5DE02004713FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8606B97F28C8E096001D6759 /* DetailViewController.swift in Sources */,
+				869FDA4128C5DE02004713FB /* ViewController.swift in Sources */,
+				869FDA3D28C5DE02004713FB /* AppDelegate.swift in Sources */,
+				861F5E8128C7114B0018C232 /* LoginController.swift in Sources */,
+				869B764A28C8A9C9002752DB /* TableViewCell.swift in Sources */,
+				868EFACC28CD185F0032ECF4 /* operationModel.swift in Sources */,
+				868249FA28CBC4AC00444B6B /* postDataModel.swift in Sources */,
+				861F5E7F28C710ED0018C232 /* RegisterController.swift in Sources */,
+				8686427028C9DDF600EB1E60 /* CreateViewController.swift in Sources */,
+				869FDA3F28C5DE02004713FB /* SceneDelegate.swift in Sources */,
+				8692788F28C78AAB009CDC02 /* HomeViewController.swift in Sources */,
+				86362A0428CC5B750078B455 /* DetailTableViewCell.swift in Sources */,
+				869FDA5328C5E536004713FB /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8671038928E2D58100065320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869FDA3828C5DE02004713FB /* SocioutApp */;
+			targetProxy = 8671038828E2D58100065320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		869FDA4228C5DE02004713FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869FDA4328C5DE02004713FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		869FDA4728C5DE19004713FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869FDA4828C5DE19004713FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8671038B28E2D58100065320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swatiM.SocioutAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocioutApp.app/SocioutApp";
+			};
+			name = Debug;
+		};
+		8671038C28E2D58100065320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swatiM.SocioutAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocioutApp.app/SocioutApp";
+			};
+			name = Release;
+		};
+		869FDA4B28C5DE19004713FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		869FDA4C28C5DE19004713FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		869FDA4E28C5DE19004713FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DC3103ACB38F737E25ED42 /* Pods-SocioutApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocioutApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swatiM.SocioutApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		869FDA4F28C5DE19004713FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6405D0973085EC6E2551B750 /* Pods-SocioutApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocioutApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swatiM.SocioutApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8671038A28E2D58100065320 /* Build configuration list for PBXNativeTarget "SocioutAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8671038B28E2D58100065320 /* Debug */,
+				8671038C28E2D58100065320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869FDA3428C5DE02004713FB /* Build configuration list for PBXProject "SocioutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869FDA4B28C5DE19004713FB /* Debug */,
+				869FDA4C28C5DE19004713FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869FDA4D28C5DE19004713FB /* Build configuration list for PBXNativeTarget "SocioutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869FDA4E28C5DE19004713FB /* Debug */,
+				869FDA4F28C5DE19004713FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 869FDA3128C5DE02004713FB /* Project object */;
+}

@@ -1,0 +1,14 @@
+ platform :ios, '13.0'
+
+target 'SocioutApp' do
+  
+  use_frameworks!
+
+  # Pods for SocioutApp
+  
+  pod 'lottie-ios'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+
+
+end
